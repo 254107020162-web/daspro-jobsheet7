@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SiakadWhile26 {
+public class ModifikasiWhile {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -18,13 +18,13 @@ public class SiakadWhile26 {
             }
 
             if (nilai > 80 && nilai <= 100) {
-                System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A");
+                System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah A - Bagus, Pertahankan nilainya!");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah B");
             } else if (nilai > 60 && nilai <= 65) {
-                System.out.println("N mahasiswa ke-" + (i + 1) + " adalah C+");
+                System.out.println("Nlai mahasiswa ke-" + (i + 1) + " adalah C+");
             } else if (nilai > 50 && nilai <= 60) {
                 System.out.println("Nilai mahasiswa ke-" + (i + 1) + " adalah C");
             } else if (nilai > 39 && nilai <= 50) {
@@ -37,4 +37,3 @@ public class SiakadWhile26 {
         }
     }
 }
-
